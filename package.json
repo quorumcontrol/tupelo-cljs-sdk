@@ -1,0 +1,15 @@
+{
+  "name": "tupelo-cljs-sdk",
+  "version": "0.0.1",
+  "scripts": {
+    "watch": "shadow-cljs watch lib",
+    "compile": "shadow-cljs compile lib",
+    "build": "shadow-cljs release lib"
+  },
+  "devDependencies": {
+    "shadow-cljs": "2.8.52"
+  },
+  "dependencies": {
+    "tupelo-wasm-sdk": "0.0.10"
+  }
+}
