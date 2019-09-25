@@ -1,0 +1,10 @@
+;; shadow-cljs configuration
+{:lein true
+
+ :builds
+ {:lib
+  {:target :node-script
+   :output-to "target/tupelo.js"
+   ;:target :node-library
+   :output-dir "target"
+   :main tupelo.core/main!}}}
